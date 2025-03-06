@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family:'Roboto' ;
+    margin: 0;
+    flex:1 1 auto;
+    flex-wrap:wrap;
+ }
+img{
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+button{
+    background-color: #3882f6;
+    color: white;
+    padding: 10px 25px ;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+ }
+.header{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    justify-content: space-evenly;
+    gap: 390px;
+    margin: 0;
+    
+}
+.header p{
+    font-weight: 900;
+}
+.header .header-list{
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+ }
+.part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+ }
+ .awesome{
+    display: flex; 
+    margin: 0;
+    padding: 60px;
+     background-color: #1f2937;
+    color: white;
+    justify-content: space-evenly;
+ }
+.awesome .right{ 
+    align-self: flex-start;
+    margin: 0;
+    padding: 0;
+}
+.awesome .left{
+    align-self: flex-start;
+    padding: 0;
+    width: 500px;
+ }
+.random{
+    font-weight: 900;
+
+}
+.random-info{
+    display: flex;
+    flex-direction: column;
+}
+.random-info img{
+    align-items: center;
+    width:150px;
+    height: 180px;
+    border-radius: 10px;
+    border: solid  #3882f6 5px;
+}
+.images{
+    display:flex;
+    gap:10px;
+    justify-content: center;
+    width: 200px;
+    gap:52px
+ }
+ .quote{
+    display: flex;
+    flex-direction: column;
+    background-color:#e5e7eb ;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.quote p{
+    font-family: 'roboto';
+    font-size: 30px;
+  }
+  .quote .q{
+    width: 430px;
+    align-self: center;
+  }
+  .quote .thor{
+    align-self: center;
+    
+}
+.action-time{
+    display: flex;
+    background-color: #3882f6;
+    padding: 35px;
+    margin: 80px 220px;
+    border-radius: 9px;
+    align-items: center;
+    color: white;
+    
+ }
+ .action-time .call{
+    font-size: 28px;
+    font-weight: 900;
+ }
+ .action-time button{
+    background-color: #3882f6;
+    color: white;
+    padding: 10px 25px ;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    border-color: white;
+    box-shadow: none;
+    box-decoration-break: none;
+ }
+ .footer{
+    display: flex;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
+ }
